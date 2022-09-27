@@ -232,6 +232,7 @@ img {
 
 .home__blob {
   fill: var(--first-color);
+  margin-left: 50px;
 }
 
 .home__blob-img {
