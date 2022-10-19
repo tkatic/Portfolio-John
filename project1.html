@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <link rel="shortcut icon" type="images/png" href="/Portfolio-John/assets/img/filler-icon.png"> -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Capstone</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="index.html" class="nav__logo">Back to Home</a>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main" id="splash-project">
+            <!--===== HOME =====-->
+            <section class="home bd-grid-project" id="home">
+                <div class="home__data">
+                    <h1 class="home__title-project">Capstone</h1>
+                </div>
+
+            </section>
+
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">Overview</h2>
+
+                <div class="about__container bd-grid block">
+                    
+                    <div class="project-body">
+                        <p class="about__text"> I completed the Design Build Test (DBT) projected for the Mechanical Design course I took during my Fall 2021 semester at University of Houston. This academic project gave me experience in 3D modeling, 3D printing, the engineering design process, integrating devices into an assembly, and communicating with a team using a concurrent engineering design model.</p> 
+                            <br>
+                            <div class="pim">
+                                <img src="assets/img/project1-thumb.png" width="4000" 
+                                height="500">
+                            </div>
+                        <p class="about__text"> I chose to create a device that earned a high figure of merit (FoM) by taking design risks and serving multiple functions. My design had an impact function and a loss of contact function, and had the following design constraints:
+                            Object A must become fully stationary before impact, 
+                            Object B must hit Object A into motion, 
+                            Both objects must not contact the device for 4 inches AFTER the impact, 
+                            These functions must be viewable and verifiable.
+                            </p>
+                            <br>
+                        <p class="about__text"> To fulfill these constraints, I opted to use a ping pong ball for “Object A” because it had the lowest inertia of the available objects and a marble for “Object B” to impact the ping pong ball. I then chose to create a 4 inch drop to ensure the loss of contact. I modeled my device on SolidWorks and 3D printed the device using PLA to ensure a low weight, earning a higher FoM. I also designed a device that only relied on gravity to avoid the weight needed to house electronics.</p> 
+                            <br>
+                        <p class="about__text"> To prove the functionality of my device, I created a simulation on SolidWorks with the proper contact surfaces, gravity, and material properties.</p>
+                            <br>
+                        <p class="about__text"> I made the inlets of my design with diameters that would easily dock to the assembly by communicating with my team. We formed a schematic to integrate our individual devices shown below.</p> 
+                            <br>
+                        <p class="about__text"> My team and I ran into numerous problems integrating the final assembly, including incorrect tube sizing, Arduino bugs, and even disqualifications where the objects fell out of the assembly. We were prudent in creating a timeline that had plenty of buffer time to integrate and problem solve, so we avoided disaster. The final assembly is shown below and earned one of the highest scores in our section with no failures during final testing.
+                            </p>
+                            <br>
+                            <p class="about__text">You can view the full report by clicking on the respective project image below.
+                            </p>
+                    </div>                                   
+                </div>
+            </section>
+            
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Projects</h2>
+                <div class="work__container bd-grid">
+                    <a href="./assets/Capstone_Report.pdf" class="work__img">
+                        <img src="assets/img/project1-thumb.png" alt="">
+                    </a>
+                    <a href="project2.html" class="work__img">
+                        <img src="assets/img/work2.jpg" alt="">
+                    </a>
+                    <a href="project3.html" class="work__img">
+                        <img src="assets/img/work3.jpg" alt="">
+                    </a>
+                </div>
+            </section>
+        </main>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>

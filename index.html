@@ -21,10 +21,10 @@
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
                         <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
                         <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link" style="color: inherit;"target="_blank"jo><a href="https://www.linkedin.com/in/johnnyparani/">Linkedln</a></li>
                     </ul>
                 </div>
 
@@ -34,33 +34,44 @@
             </nav>
         </header>
 
-        <main class="l-main">
+        <main class="l-main" id="splash">
             <!--===== HOME =====-->
             <section class="home bd-grid" id="home">
                 <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Johnny Parani</span><br> Mechanical Engineer</h1>
+                    <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Johnny Parani </span><br> Mechanical Engineer</h1>
 
-                    <a href="#" class="button">View Resume</a>
+                    <a href="./assets/portfolio.pdf" class="button resume" target="_blank">View Resume</a>
                 </div>
 
-                <div class="home__social">
-                    <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a>
-                    <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
-                </div>
-
-                <div class="home__img">
-                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <mask id="mask0" mask-type="alpha">
-                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                        </mask>
-                        <g mask="url(#mask0)">
-                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                            <image class="home__blob-img" x="50" y="60" href="assets/img/perfil.png"/>
-                        </g>
-                    </svg>
-                </div>
             </section>
+
+            <!--=== EYEBALLS ===-->
+                <!-- <div class="EYEBALLS">
+                    <div class="eyes"></div>
+                    <div class="eyes"></div>
+                    <div class="eyes"></div>
+                    <div class="eyes"></div>
+                    <div class="eyes"></div>
+                    <div class="eyes"></div>
+                    <div class="eyes"></div>
+                    <div class="eyes"></div>
+                    <div class="eyes"></div>
+                    <div class="eyes"></div>
+                    <div class="eyes"></div>
+                    <div class="eyes"></div>
+                    <div class="eyes"></div>
+                    <div class="eyes"></div>
+                    <div class="eyes"></div>
+                    <div class="eyes"></div>
+                    <div class="eyes"></div>
+                    <div class="eyes"></div>
+                    <div class="eyes"></div>
+                    <div class="eyes"></div>
+                    <div class="eyes"></div>
+                    <div class="eyes"></div>
+                    <div class="eyes"></div>
+                </div> -->
+
 
             <!--===== ABOUT =====-->
             <section class="about section " id="about">
@@ -68,12 +79,15 @@
 
                 <div class="about__container bd-grid">
                     <div class="about__img">
-                        <img src="assets/img/about.jpg" alt="">
+                        <img src="assets/img/john.png" width="4000" 
+                        height="500">
                     </div>
                     
                     <div>
-                        <h2 class="about__subtitle">I'm John!</h2>
-                        <p class="about__text">I just love being passionate about Croatia. It's so cool being in the Balkans and enjoying the nice weather there!.</p>           
+                        <h2 class="about__subtitle">I'm Johnny</h2>
+                        <p class="about__text"> I am interested in design engineering, 3D Computer-Aided Design, and collaborating with a team to make an impact in the mechanical engineering industry. I am a driven worker who takes pride in innovating and putting in the extra effort to provide comprehensive mechanical solutions.</p> 
+                            <br>
+                        <p class="about__text"> My passion for the arts aids my design process by infusing practical designs with creativity. I love making my own music, clothes, or visual art in my free time! I have been involved with artists all over the country and been a vendor at art shows in Houston, even using my SolidWorks skills to create art pieces.</p>           
                     </div>                                   
                 </div>
             </section>
@@ -83,52 +97,18 @@
                 <h2 class="section-title">Projects</h2>
 
                 <div class="work__container bd-grid">
-                    <a href="" class="work__img">
-                        <img src="assets/img/work1.jpg" alt="">
+                    <a href="project1.html" class="work__img">
+                        <img src="assets/img/project1-thumb.png" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <a href="project2.html" class="work__img">
                         <img src="assets/img/work2.jpg" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <a href="project3.html" class="work__img">
                         <img src="assets/img/work3.jpg" alt="">
                     </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work4.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work5.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work6.jpg" alt="">
-                    </a>
-                </div>
-            </section>
-
-            <!--===== CONTACT =====-->
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
-
-                <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Submit" class="contact__button button">
-                    </form>
                 </div>
             </section>
         </main>
-
-        <!--===== FOOTER =====-->
-        <footer class="footer">
-            <p class="footer__title">@tkatic</p>
-            <div class="footer__social">
-                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
-            </div>
-            <p class="footer__copy">&#169; Maybe we'll use one of these</p>
-        </footer>
 
 
         <!--===== SCROLL REVEAL =====-->

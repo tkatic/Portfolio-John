@@ -11,6 +11,23 @@ const showMenu = (toggleId, navId) =>{
 }
 showMenu('nav-toggle','nav-menu')
 
+// EYEBALLS
+
+// document.querySelector("body").addEventListener("mousemove", eyeball);
+
+//  function eyeball() {
+//    const eye = document.querySelectorAll(".eyes");
+//    eye.forEach(function (eye) {
+//      let x = eye.getBoundingClientRect().left + eye.clientWidth / 2;
+//      let y = eye.getBoundingClientRect().top + eye.clientHeight / 2;
+
+//      let radian = Math.atan2(event.pageX - x, event.pageY - y);
+//      let rotate = radian * (180 / Math.PI) * -1 + 270;
+//      eye.style.transform = "rotate(" + rotate + "deg)";
+//    });
+//  }
+
+
 /*==================== REMOVE MENU MOBILE ====================*/
 const navLink = document.querySelectorAll('.nav__link')
 
@@ -50,7 +67,7 @@ const sr = ScrollReveal({
 //     reset: true
 });
 
-sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text',{}); 
-sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img',{delay: 400}); 
+sr.reveal('.home__data, .about__img, .pim, .skills__subtitle, .skills__text',{}); 
+sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img, .project-link',{delay: 400}); 
 sr.reveal('.home__social-icon',{ interval: 200}); 
 sr.reveal('.skills__data, .work__img, .contact__input',{interval: 200}); 
