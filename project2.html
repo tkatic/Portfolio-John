@@ -1,101 +1,86 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Tel-A-Ear Public Art Installation</title>
-    <link rel="shortcut icon" type="images/png" href="images/favicon2.png" />
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="./assets/img/filler-icon.png"/>
+        <link rel="stylesheet" href="assets/css/styles.css">
 
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1"
-    />
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
-      rel="stylesheet"
-    />
+        <title>Capstone</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="index.html" class="nav__logo">Back to Home</a>
+                </div>
+            </nav>
+        </header>
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap"
-      rel="stylesheet"
-    />
+        <main class="l-main" id="splash-project">
+            <!--===== HOME =====-->
+            <section class="home bd-grid-project" id="home">
+                <div class="home__data">
+                    <h1 class="home__title-project">Capstone</h1>
+                </div>
 
-    <link rel="stylesheet" type="text/css" href="css/default.css" />
+            </section>
 
-    <style type="text/css">
-      .img-container {
-        max-width: 600px;
-      }
 
-      img {
-        width: 100%;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="nav-wrapper">
-      <a href="index.html">
-        <div class="dots-wrapper">
-          <div id="dot-1" class="browser-dot"></div>
-          <div id="dot-2" class="browser-dot"></div>
-          <div id="dot-3" class="browser-dot"></div>
-        </div>
-      </a>
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">Overview</h2>
 
-      <ul id="navigation">
-        <li><a href="index.html#contact">Contact</a></li>
-      </ul>
-    </div>
+                <div class="about__container bd-grid block">
+                    
+                    <div class="project-body">
+                        <p class="about__text"> The Capstone Project is the synthesis of my undergraduate degree, in which I have teamed up with three fellow Mechanical Engineers to put our college experience into a real solution. Our team’s name is JAMS, an acronym of all of our names. We are designing a glove mechanism for an aeronautical glovebox to gain experience in the aerospace industry.</p> 
+                            <br>
+                            <div class="pim">
+                                <img src="assets/img/Capstone_1.PNG" width="4000" 
+                                height="500">
+                            </div>
+                        <p class="about__text"> The problem we are solving is the lack of a concrete fastening device for the Life Sciences Glovebox (LSG) on the ISS. Since the LSG’s specifications are proprietary information, we are constructing our own constraints and specifications to develop a device that can maintain a vacuum seal, provide tension to gloves, and quickly release in case of an emergency.</p>
+                            <br>
+                            <div class="pim">
+                              <img src="assets/img/Capstone_2.PNG" width="4000" 
+                              height="500">
+                          </div>
+                        <p class="about__text"> My team and I have communicated a timeline and budget for the project, developing a Gantt Chart, and we have created numerous technical reports to explicate our progress and propose our solution. JAMS plan on completing the project before graduation, with a fully functional and validated product.</p> 
+                            <br>
+                        <p class="about__text"> This project is a test of the culmination of all my engineering experience and an in-depth opportunity to execute the engineering design process. I have designed a website to catalogue updates and document the progress of the project. The website has commenting capabilities to allow users to provide feedback and field questions. I also designed a user-friendly interface and brand for JAMS to market our collaborative efforts and display our friendly attitude toward building a working solution.</p>
+                            <br>
+                            <a href="https://johnnyparani.wixsite.com/jams" class="about__text project-link" target="_blank">Click here to view my JAMS Capstone website.
+                            </a>
+                    </div>                                   
+                </div>
+            </section>
+            
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Projects</h2>
+                <div class="work__container bd-grid">
+                    <a href="project1.html" class="work__img">
+                        <img src="assets/img/project1-thumb.png" alt="">
+                    </a>
+                    <a href="project2.html" class="work__img">
+                        <img src="assets/img/project2-thumb.png" alt="">
+                    </a>
+                    <a href="project3.html" class="work__img">
+                        <img src="assets/img/project3-thumb.png" alt="">
+                    </a>
+                </div>
+            </section>
+        </main>
 
-    <div class="main-container">
-      <br />
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
 
-      <div class="img-container">
-        <img src="images/le_logo.png" />
-      </div>
-
-      <h3>Lands' End Performance Dashboard</h3>
-
-      <p>
-        This was the main project that I was assigned during my internship at
-        Lands' End. I was tasked with making a dashboard that would interact
-        with the PageSpeed Insights API and render the data according to
-        filters.
-        <br />
-        <br />
-        The project began with a CLI application in Node JS that sent an HTTP
-        request to the PageSpeed Insights API based on a few parameters, such as
-        url.
-        <br />
-        <br />
-        I then built a REST API that automated the request and stored the data
-        into MongoDB. The final part of the project was to build the webpage
-        with an interactive dashboard and useful filters such as url, metric,
-        and date.
-        <br />
-        <br />
-        The best part of this project was that the tool was set to be used by
-        roughly 500 internal employees. It felt amazing to develop something by
-        myself that would be used and improve the efficiency of their analytics.
-        <br />
-        <br />
-        I worked on this project for 3 months during the duration of my
-        internship as a Web Engineer at Lands' End.
-      </p>
-
-      <h5>Technologies:</h5>
-      <ul>
-        <li>- Javascript</li>
-        <li>- Node JS</li>
-        <li>- PageSpeed API</li>
-        <li>- MongoDB</li>
-        <li>- HTML/CSS</li>
-        <li>- Docker</li>
-      </ul>
-
-      <h5>PageSpeed Insights Dashboard</h5>
-      <div class="img-container">
-        <img src="images/rumrunner.png" />
-      </div>
-    </div>
-  </body>
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
